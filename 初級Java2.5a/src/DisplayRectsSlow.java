@@ -8,7 +8,7 @@ public class DisplayRectsSlow extends MyFrame{
 	    	clear();
 	    	//(2)
 	    	setColor(0,128,0);
-	    	fillRect(x,80,10,100);
+	    	fillOval(x,40,40,40);
 					x+=5;
 					sleep(0.1);
 				}
