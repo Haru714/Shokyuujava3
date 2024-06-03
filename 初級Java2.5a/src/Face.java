@@ -9,9 +9,10 @@ public class Face {
 	}
 public void draw(MyFrame frame){
 	
-	frame.fillOval(x,y,50,100);
-	frame.fillOval(x+100,y,50,100);
-	frame.fillRect(x,y+160,150,10);
+	frame.fillOval(x+120,y+40,30,30);
+	frame.fillOval(x+60,y+40,30,30);
+	frame.fillRect(x+56,y+25,100,25);
+	frame.fillRect(x+70 ,y,70,30);
 }
 public void move() {
 	x+=vx;
