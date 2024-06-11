@@ -1,5 +1,5 @@
 
-public class DisplayFaceAndTree extends MyFrame{
+public class DisplayFaceAndTree {
 	public void run() {
 		Face face1=new Face(50,50,10,5);
 		Face face2=new Face(200,100,-10,-5);

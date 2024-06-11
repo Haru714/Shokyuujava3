@@ -1,5 +1,6 @@
 import java.util.Vector;
-public class DisplayCarTrain extends MyFrame{
+
+public class Vector {
 	public void run() {
 	vector<Vehiole>vehicles=new Vector<Vehiole>();
 	vehicles.add(new Car(10,30,3,0));
@@ -9,10 +10,10 @@ public class DisplayCarTrain extends MyFrame{
 	for (int i=0;i<30;i++) {
 		clear();
 		for(int j=0; j<Vehiole.length; j++) {
-			Vehiole[j].draw(this);
+			[j].draw(this);
 			Vehiole[j].move();
 	}
 			sleep(0.1);
 }
-
-	}}
+}
+}
